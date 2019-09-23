@@ -1,7 +1,7 @@
 
 from collections import defaultdict
 from pathlib import Path
-from typing import List, Tuple
+from typing import List, Set, Tuple
 
 import torch
 from PIL import Image
@@ -47,28 +47,28 @@ class Flickr30k(Dataset):
 
     def __init__(
         self,
-        dataset_folder: Path,
-        entities_folder: Path,
+        images_folder: Path = images_folder,
+        annotations_folder: Path = entities_folder,
         split: str = "test",
         transforms=None,
         target_transforms=None,
     ):
         super().__init__()
         assert split in ("train", "val", "test")
-        self.img_folder = dataset_folder / "flickr30k_images"
+        self.img_folder = images_folder
         self.transforms = transforms
         self.target_transforms = target_transforms
 
-        split_instances: List[str] = set(read_file(entities_folder / f"{split}.txt").split("\n"))
+        split_instances: Set[str] = set(read_file(annotations_folder / f"{split}.txt").split("\n"))
 
-        annotations_table = read_table(read_file(dataset_folder / "results.csv"), "|")
+        annotations_table = read_table(read_file(annotations_folder / "captions.csv"), "|")
 
         self.annotations = defaultdict(list)
         for image_name, _, caption in annotations_table:
             if image_name[:-4] in split_instances:
                 self.annotations[image_name].append(caption)
 
-        self.ids = list(sorted(self.annotations.keys()))
+        self.ids = sorted(self.annotations.keys())
 
     def __getitem__(self, index: int) -> Tuple[Image.Image, List[str]]:
         """
@@ -94,9 +94,10 @@ class Flickr30k(Dataset):
         return len(self.ids)
 
 
-dataset = Flickr30k(images_folder, entities_folder)
-for img, target in dataset:
-    img.show()
-    print(target)
-    break
+if __name__ == "__main__":
+    dataset = Flickr30k(images_folder, entities_folder, "val")
+    for img, target in dataset:
+        img.show()
+        print(target)
+        break
 
