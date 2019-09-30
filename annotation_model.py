@@ -33,7 +33,7 @@ def save_annotation(
         obj = data
     translation_file.parent.mkdir(parents=True, exist_ok=True)
     json.dump(obj, str(translation_file), indent=2, overwrite=True, verbose=False)
-    print(f"Saved IMG_{image_id}-CAP_{caption_id}.")
+    print(f"Saved img {image_id}, cap {caption_id}.")
     
 
 def load_annotation(
@@ -45,5 +45,5 @@ def load_annotation(
     if translation_file.is_file():
         data = Translation(**json.load(str(translation_file), verbose=False))
         return zip(data["markers"], data["translated_sentences"])
-    msg = f"No translation file found for ID IMG_{image_id}-CAP_{caption_id}."
+    msg = f"No translation file found for ID img {image_id}, cap {caption_id}."
     raise ValueError(msg)
