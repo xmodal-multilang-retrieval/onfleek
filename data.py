@@ -37,11 +37,10 @@ class Flickr30k(Dataset):
     """
     Flickr30k Entities <http://web.engr.illinois.edu/~bplumme2/Flickr30kEntities/> Dataset.
 
-    :param img_folder: directory where the images are located.
-    ann_file (string): Path to annotation file.
-    transform (callable, optional): A function/transform that takes in a PIL image
-        and returns a transformed version. E.g, ``transforms.ToTensor``
-    target_transform (callable, optional): A function/transform that takes in the
+    :param images_folder: directory where the images are located.
+    :param transform: (callable, optional) A function/transform that takes in a PIL image
+        and returns a transformed version, e.g., ``transforms.ToTensor``
+    :param target_transform: (callable, optional) A function/transform that takes in the
         target and transforms it.
     """
 
