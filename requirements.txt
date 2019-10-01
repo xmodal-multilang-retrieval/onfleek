@@ -1,0 +1,11 @@
+colorama
+googledrivedownloader
+jupyter
+matplotlib
+mypy_extensions
+pylint
+requests
+superjson
+torch
+torchvision
+
