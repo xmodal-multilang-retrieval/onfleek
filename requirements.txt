@@ -4,6 +4,7 @@ jupyter
 matplotlib
 mypy_extensions
 pylint
+pytz
 requests
 superjson
 torch
