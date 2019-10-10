@@ -37,7 +37,7 @@ def save_annotation(
         data["timestamps"].append(timestamps)
         obj = data
     translation_file.parent.mkdir(parents=True, exist_ok=True)
-    json.dump(obj, str(translation_file), indent=2, overwrite=True, verbose=False)
+    json.dump(obj, str(translation_file), indent=2, ensure_ascii=False, overwrite=True, verbose=False)
     print(f"Saved img {image_id}, cap {caption_id}.")
 
 
