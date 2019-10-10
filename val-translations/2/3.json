@@ -1,0 +1,39 @@
+{
+  "markers": [
+    "normal",
+    "edit",
+    "skip"
+  ],
+  "original_sentence": " Two people are sitting on a bench , and one women is standing by them .",
+  "translated_sentences": [
+    "Duas pessoas estão sentadas em um banco, e uma mulher está em pé ao lado deles.",
+    "Duas pessoas estão sentadas em um banco e uma mulher está em pé ao lado deles.",
+    ""
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:57:14.292661-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:57:41.600483-03:00"
+      }
+    ],
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:03:52.738694-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:04:03.559462-03:00"
+      }
+    ],
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:07:27.115498-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:07:29.944485-03:00"
+      }
+    ]
+  ]
+}

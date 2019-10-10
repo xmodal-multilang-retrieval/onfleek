@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A construction worker is standing in the street and holding a red flag .",
+  "translated_sentences": [
+    "Um trabalhador de construção civil está em pé na rua e segurando uma bandeira vermelha."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:45:42.111130-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:46:49.552068-03:00"
+      }
+    ]
+  ]
+}

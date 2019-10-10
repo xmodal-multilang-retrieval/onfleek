@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man wearing a reflective vest and a hard hat holds a flag in the road",
+  "translated_sentences": [
+    "Um homem usando um colete refletor e um chapéu duro segura uma bandeira na rua."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:46:49.608890-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:47:17.323695-03:00"
+      }
+    ]
+  ]
+}

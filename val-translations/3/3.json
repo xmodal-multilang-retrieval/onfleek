@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man on the phone surrounded by stacks of books .",
+  "translated_sentences": [
+    "Um homem no telefone cercado por pilhas de livros"
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:12:42.622369-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:12:57.521631-03:00"
+      }
+    ]
+  ]
+}

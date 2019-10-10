@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man wearing a hard hat and a caution vest is standing in the street waving an orange flag .",
+  "translated_sentences": [
+    "Um homem usando um chapéu duro e um colete de precaução está em pé na rua balançando uma bandeira laranja."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:43:31.140555-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:44:59.052631-03:00"
+      }
+    ]
+  ]
+}

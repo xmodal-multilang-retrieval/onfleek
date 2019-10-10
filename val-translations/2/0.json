@@ -1,0 +1,29 @@
+{
+  "markers": [
+    "normal",
+    "skip"
+  ],
+  "original_sentence": " A little boy looks at the camera while a woman behind him seems to be laughing very hard and the woman on the right has a big smile on her face .",
+  "translated_sentences": [
+    "Um garotinho olha para a câmera enquanto uma mulher atrás dele parece estar rindo muito forte e a mulher à direita está com um grande sorriso no seu rosto.",
+    ""
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:54:23.407642-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:55:04.916829-03:00"
+      }
+    ],
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:06:48.350111-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:07:19.514700-03:00"
+      }
+    ]
+  ]
+}

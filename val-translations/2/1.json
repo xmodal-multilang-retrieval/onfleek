@@ -1,0 +1,29 @@
+{
+  "markers": [
+    "normal",
+    "skip"
+  ],
+  "original_sentence": " Three people on a porch , of which is a little boy who is sitting up straight in his chair .",
+  "translated_sentences": [
+    "Três pessoas em uma varanda, das quais uma é um garotinho que está sentado reto na sua cadeira.",
+    ""
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:55:05.116374-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:56:42.602292-03:00"
+      }
+    ],
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:07:19.570703-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:07:25.416184-03:00"
+      }
+    ]
+  ]
+}

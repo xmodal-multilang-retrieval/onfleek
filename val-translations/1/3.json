@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man with his daughter sitting on a stroller in a supermarket .",
+  "translated_sentences": [
+    "Um homem com sua filha sentados num carrinho de criança em um supermercado."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:49:53.925853-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:50:38.189265-03:00"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man and a little girl happily posing in front of their cart in a supermarket .",
+  "translated_sentences": [
+    "Um homem e uma garotinha posando com felicidade em frente ao seu carrinho de supermercado."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:47:17.670130-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:48:28.032171-03:00"
+      }
+    ]
+  ]
+}

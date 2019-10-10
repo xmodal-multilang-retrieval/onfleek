@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A guy sitting at a desk talking on a phone with books laying everywhere .",
+  "translated_sentences": [
+    "Um cara sentado em uma mesa falando num telefone com livros largados em todo lugar."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:09:16.378437-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:10:23.834071-03:00"
+      }
+    ]
+  ]
+}

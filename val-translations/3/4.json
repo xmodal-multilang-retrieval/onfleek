@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man in a cluttered office is using the telephone",
+  "translated_sentences": [
+    "Um homem em um escritório bagunçado está usando o telefone."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:12:57.568231-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:13:35.216549-03:00"
+      }
+    ]
+  ]
+}

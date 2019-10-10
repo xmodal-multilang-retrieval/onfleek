@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man sits at a desk in room cluttered with books .",
+  "translated_sentences": [
+    "Um homem senta na sua mesa em uma sala abarrotada com livros."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:10:37.897188-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:12:42.570035-03:00"
+      }
+    ]
+  ]
+}

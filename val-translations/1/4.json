@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " The little girl and the man are smiling .",
+  "translated_sentences": [
+    "A garotinha e o homem estão sorrindo."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:50:38.243428-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:50:49.322561-03:00"
+      }
+    ]
+  ]
+}

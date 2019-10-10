@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man in a blue hard hat and orange safety vest stands in an intersection while holding a flag .",
+  "translated_sentences": [
+    "Um homem com um chapéu azul duro e colete laranja de segurança em pé em uma intersecção enquanto segura uma bandeira."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:42:16.125321-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:43:31.073823-03:00"
+      }
+    ]
+  ]
+}

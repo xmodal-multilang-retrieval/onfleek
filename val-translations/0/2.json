@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man in bright vest and hard hat holds a flag on a street corner covered in spray paint",
+  "translated_sentences": [
+    "Um homem de colete brilhoso e chapéu duro segura uma bandeira numa esquina de uma rua coberta de tinta spray."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:44:59.108150-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:45:42.056696-03:00"
+      }
+    ]
+  ]
+}

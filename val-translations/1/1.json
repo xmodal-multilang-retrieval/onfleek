@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " A man sitting with his daughter in his daughter 's pink car in a grocery store .",
+  "translated_sentences": [
+    "Um homem sentado com sua filha no carro rosa de sua filha em um armazém. "
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:48:28.084932-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:49:24.555708-03:00"
+      }
+    ]
+  ]
+}

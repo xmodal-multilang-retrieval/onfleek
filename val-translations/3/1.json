@@ -1,0 +1,19 @@
+{
+  "markers": [
+    "normal"
+  ],
+  "original_sentence": " Man talking on a phone , surrounded by books in an office .",
+  "translated_sentences": [
+    "Homem falando num telefone, cercado por livros em um escritório."
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:10:23.885713-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:10:37.851264-03:00"
+      }
+    ]
+  ]
+}

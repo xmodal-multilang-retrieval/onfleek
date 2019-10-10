@@ -1,0 +1,29 @@
+{
+  "markers": [
+    "normal",
+    "skip"
+  ],
+  "original_sentence": " A woman in a dark dress smiles while a woman across from her and a child sit in chairs .",
+  "translated_sentences": [
+    "Uma mulher em um vestido preto sorri enquanto uma mulher em frente à ela e uma criança sentam em cadeiras.",
+    ""
+  ],
+  "timestamps": [
+    [
+      {
+        "$datetime.datetime": "2019-10-09T13:56:42.659934-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T13:57:14.232637-03:00"
+      }
+    ],
+    [
+      {
+        "$datetime.datetime": "2019-10-09T14:07:25.471919-03:00"
+      },
+      {
+        "$datetime.datetime": "2019-10-09T14:07:27.059603-03:00"
+      }
+    ]
+  ]
+}
